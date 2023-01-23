@@ -1,0 +1,27 @@
+div {
+  margin-bottom: 2em;
+}
+
+h4 {
+  margin: 0px;
+}
+button {
+  margin: 2em 0;
+}
+
+table {
+  width: 40em;
+  text-align: center;
+  margin: 1em;
+  background-color: rgb(146, 141, 141);
+  color: black;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th {
+  border: 2px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
