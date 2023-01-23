@@ -5,8 +5,8 @@ div {
 h4 {
   margin: 0px;
 }
-button {
-  margin: 2em 0;
+#myButton {
+  margin: 1em 0;
 }
 
 table {
