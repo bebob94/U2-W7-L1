@@ -17,7 +17,13 @@ table {
   color: black;
   border: 2px solid black;
   border-collapse: collapse;
+  display: none;
 }
+
+.createTable {
+  display: table;
+}
+
 th {
   border: 2px solid black;
 }

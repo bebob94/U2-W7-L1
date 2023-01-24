@@ -16,13 +16,16 @@ newButton.onclick = function () {
   currentUser.name = newName.value;
   currentUser.surname = newSurname.value;
   currentUser.DateOfBirth = newDateOfBirth.value;
-  let newTdody = document.createElement("tbody");
-  newTdody.innerHTML = `<tr>
-        <td>${currentUser.name}</td>
-        <td>${currentUser.surname}</td>
-        <td>${currentUser.DateOfBirth}</td>
-    </tr>
+  let newTdody = document.createElement("tr");
+  newTdody.innerHTML = `
+  <td>${currentUser.name}</td>
+  <td>${currentUser.surname}</td>
+  <td>${currentUser.DateOfBirth}</td>
+  
   `;
 
   myTable.appendChild(newTdody);
+  myTable.classList.add("createTable");
+  newName.value = "";
+  newSurname.value = "";
 };
